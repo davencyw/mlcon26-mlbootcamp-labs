@@ -66,6 +66,11 @@ data/raw/
 data/processed/
 *.parquet
 
+# Dataset downloads created by labs (e.g. torchvision MNIST)
+labs/**/data/
+*.idx3-ubyte
+*.idx1-ubyte
+
 # Logs and caches
 *.log
 .cache/
